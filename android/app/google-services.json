@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1054684396532",
+    "firebase_url": "https://fir-cloud-function-b5973.firebaseio.com",
+    "project_id": "fir-cloud-function-b5973",
+    "storage_bucket": "fir-cloud-function-b5973.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1054684396532:android:e473178d81304ac85557a1",
+        "android_client_info": {
+          "package_name": "com.kokowork.mobile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1054684396532-2469k2senhkogsgj5o3oqpt0kmfgsg19.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBAk5Mt0GBKB4q1dG9bO84T0vV0H4DsiE8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1054684396532-2469k2senhkogsgj5o3oqpt0kmfgsg19.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,40 @@
+{
+  "name": "firebase_contact",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios --simulator='iPhone 12'",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint ./src",
+    "fixCode": "eslint --fix ./src",
+    "icons": "node scripts/icons.js",
+    "pod": "cd ios && pod install && cd ..",
+    "reverse": "adb reverse tcp:8081 tcp:8081",
+    "prettier": "prettier --write '**/*.{ts,js,css,html}'"
+  },
+  "dependencies": {
+    "@react-native-firebase/app": "^11.4.1",
+    "@react-native-firebase/database": "^11.4.1",
+    "native-base": "^2.15.2",
+    "prop-types": "^15.7.2",
+    "react": "17.0.1",
+    "react-native": "0.64.0",
+    "react-native-contacts": "^7.0.0",
+    "react-native-device-info": "^8.1.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.0",
+    "@babel/runtime": "^7.14.0",
+    "@react-native-community/eslint-config": "^2.0.0",
+    "babel-jest": "^26.6.3",
+    "eslint": "^7.25.0",
+    "jest": "^26.6.3",
+    "metro-react-native-babel-preset": "^0.66.0",
+    "react-test-renderer": "17.0.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}

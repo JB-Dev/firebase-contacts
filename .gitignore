@@ -1,23 +1,80 @@
-# Compiled class file
-*.class
+# OSX
+#
+.DS_Store
+Xcode
+#
+build/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
+*.xccheckout
+*.moved-aside
+DerivedData
+*.hmap
+*.ipa
+*.xcuserstate
 
-# Log file
-*.log
+Android/IntelliJ
+#
+build/
+.idea
+.gradle
+local.properties
+*.iml
+android/app/release/
+android/.project
+android/.settings/
+android/app/gradlew
 
-# BlueJ files
-*.ctxt
+node.js
+#
+node_modules/
+npm-debug.log
+yarn-error.log
+BUCK
+buck-out/
+.buckd/
+*.keystore
+!debug.keystore
+fastlane
+#
+It is recommended to not store the screenshots in the git repo. Instead, use fastlane to re-generate the
+screenshots whenever they are needed.
+For more information about the recommended setup visit:
+https://docs.fastlane.tools/best-practices/source-control/
+*/fastlane/report.xml
+*/fastlane/Preview.html
+*/fastlane/screenshots
+Bundle artifact
+*.jsbundle
+CocoaPods
+/ios/Pods/
+.gitattributes
+__tests__/
+android/app/build_defs.bzl
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
+yarn.lock
+ios/Podfile.lock
+package-lock.json
+ios/firebase_contact.xcodeproj/xcshareddata/xcschemes/firebase_contact.xcscheme
+ios/firebase_contact.xcodeproj/xcshareddata/xcschemes/firebase_contact-tvOS.xcscheme
+ios/firebase_contact.xcworkspace/contents.xcworkspacedata
+ios/firebase_contact.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist
+ios/firebase_contact-tvOS/Info.plist
+ios/firebase_contact-tvOSTests/Info.plist
+ios/firebase_contact.xcworkspace/
+ios/firebase_contactTests/
 
-# Package Files #
-*.jar
-*.war
-*.nar
-*.ear
-*.zip
-*.tar.gz
-*.rar
-
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
+__tests__/
+yarn.lock
+android/gradle/wrapper/gradle-wrapper.jar
+android/gradlew*
+android/gradlew.bat
+android/*.hprof
+android/app/build.gradle.orig
